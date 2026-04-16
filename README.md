@@ -4,18 +4,18 @@
 
 ---
 
-##  Proje Hakkında
+## 1. Proje Hakkında
 
 Bu proje, şehirlerde karşılaşılan problemlerin daha sistematik bir şekilde ele alınmasını hedeflemektedir. Problemlerin daha anlaşılır hale getirilmesi ve önem derecesine göre önceliklendirilmesi amaçlanmaktadır.
 
 
----
+
 
 ##  Çözülen Problem
 
 Şehirlerde karşılaşılan problemler farklı platformlarda dile getirilse de, bu veriler genellikle dağınık kalmakta ve sistematik bir şekilde analiz edilmemektedir. Bu durum, hangi problemlerin daha öncelikli olduğu ve hangi konuların daha fazla kişiyi etkilediği gibi soruların net şekilde yanıtlanmasını zorlaştırmaktadır.
 
----
+
 
 ##  Çözüm
 
@@ -23,7 +23,7 @@ Bu platform, kullanıcıların bildirdiği problemlerin daha anlaşılır hale g
 
 ---
 
-##  Hedef Kitle ve Kullanım Senaryosu
+## 2. Hedef Kitle ve Kullanım Senaryosu
 
 Platform, şehirde yaşayan bireyler ve yerel yönetimler için tasarlanmıştır.
 
@@ -34,7 +34,7 @@ Platform, şehirde yaşayan bireyler ve yerel yönetimler için tasarlanmıştı
 
 ---
 
-##  MVP Kapsamı
+## 3. MVP Kapsamı
 
 * Problem bildirme (metin + isteğe bağlı görsel)
 * Problemlerin kategorize edilmesi
@@ -43,13 +43,13 @@ Platform, şehirde yaşayan bireyler ve yerel yönetimler için tasarlanmıştı
 
 ---
 
-##  Yaklaşım
+## 4. Yaklaşım
 
 Bu proje, yapay zekanın sonradan eklenen bir özellik değil, sistemin temel bir parçası olduğu bir yaklaşımla tasarlanmıştır. Amaç, kullanıcıdan gelen veriyi doğrudan daha anlamlı ve kullanılabilir hale getirmektir.
 
 ---
 
-##  Temel Özellikler
+## 5. Temel Özellikler
 
 * **Problem Bildirme:** Kullanıcılar karşılaştıkları problemleri sisteme ekleyebilir
 * **Kategori Belirleme:** Problemler belirli kategoriler altında toplanır
@@ -59,7 +59,7 @@ Bu proje, yapay zekanın sonradan eklenen bir özellik değil, sistemin temel bi
 
 ---
 
-##  Kullanım Senaryosu
+## 6. Kullanım Senaryosu
 
 1. Kullanıcı uygulamayı açar
 2. Problem bildirme ekranına gider
@@ -70,7 +70,7 @@ Bu proje, yapay zekanın sonradan eklenen bir özellik değil, sistemin temel bi
 
 ---
 
-##  Kullanılan Teknolojiler
+## 7. Kullanılan Teknolojiler
 
 * FastAPI
 * PostgreSQL
@@ -79,18 +79,9 @@ Bu proje, yapay zekanın sonradan eklenen bir özellik değil, sistemin temel bi
 
 ---
 
-##  Dokümanlar
+## 8. Dokümanlar
 
 * MVP Dokümanı: docs/mvp.md
 * PRD Dokümanı: docs/prd.md
 
----
-
-##  Gelecek Geliştirmeler
-
-* Görsel analiz desteği
-* Benzer problemlerin gruplanması
-* Yönetim paneli
-
----
 
