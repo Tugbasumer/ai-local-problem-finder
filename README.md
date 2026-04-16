@@ -6,7 +6,8 @@
 
 ##  Proje Hakkında
 
-Bu proje, YZ ile Ürün Geliştirme Bootcamp kapsamında geliştirilmiştir. Amaç, şehirlerde karşılaşılan problemlerin yalnızca toplanması değil, aynı zamanda daha anlamlı hale getirilerek önceliklendirilmesidir.
+Bu proje, şehirlerde karşılaşılan problemlerin daha sistematik bir şekilde ele alınmasını hedeflemektedir. Problemlerin daha anlaşılır hale getirilmesi ve önem derecesine göre önceliklendirilmesi amaçlanmaktadır.
+
 
 ---
 
