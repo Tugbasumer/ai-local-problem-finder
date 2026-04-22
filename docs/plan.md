@@ -139,3 +139,50 @@
 
 * UI iyileştirmeleri yap
 * Error handling ekle
+
+---
+
+## 9. AI Context & Prompt Design
+
+### 9.1 Persona Definition
+
+* Model için bir "analist" persona tanımla
+* Amaç: Kullanıcıdan gelen problemleri analiz eden uzman gibi davranması
+
+### 9.2 Context Design
+
+* Input:
+
+  * Kullanıcının problem açıklaması
+* Ek bağlam:
+
+  * Şehir problemleri kategorileri (trafik, altyapı, güvenlik vb.)
+  * Öncelik belirleme kriterleri (etkilenen kişi sayısı, aciliyet)
+
+### 9.3 Prompt Structure
+
+#### Kategori Promptu:
+
+* Görev: Verilen metni uygun kategoriye ata
+* Output formatı: sadece kategori ismi
+
+#### Priority Score Promptu:
+
+* Görev: Problemin önem derecesini 0-1 arasında skorla
+* Output formatı: float sayı
+
+### 9.4 Response Constraints
+
+* Model çıktısı JSON formatında olmalı
+* Örnek:
+  {
+  "category": "infrastructure",
+  "priority_score": 0.82
+  }
+
+### 9.5 Token Optimization
+
+* Prompt uzunluğunu minimumda tut
+* Gereksiz açıklamalardan kaçın
+* Sadece gerekli bağlamı ver
+
