@@ -1,0 +1,14 @@
+# Python (Backend)
+backend/venv/
+backend/__pycache__/
+backend/.env
+*.pyc
+
+# Swift / Xcode (Frontend)
+frontend/.DS_Store
+frontend/build/
+frontend/DerivedData/
+frontend/*.xcodeproj/
+
+# Genel
+.DS_Store
