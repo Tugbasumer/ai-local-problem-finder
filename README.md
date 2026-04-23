@@ -83,5 +83,20 @@ Bu proje, yapay zekanın sonradan eklenen bir özellik değil, sistemin temel bi
 
 * MVP Dokümanı: docs/mvp.md
 * PRD Dokümanı: docs/prd.md
+* Uygulama Planı (plan.md)
 
+---
+
+## 9. Dizin Yapısı
+
+```text
+ai-local-problem-finder/
+├── backend/            # API Servisi ve AI Mantığı
+├── frontend/           # iOS Mobil Uygulama Klasörleri
+├── docs/               # MVP ve PRD Dokümanları
+└── plan.md             # Geliştirme Yol Haritası
+
+----
+
+Bu proje, Future Talent 301 YZ ile Ürün Geliştirme Bootcamp kapsamında geliştirilmekte olup, yapay zeka destekli bir sosyal dayanışma ağı sunmayı amaçlamaktadır.
 
