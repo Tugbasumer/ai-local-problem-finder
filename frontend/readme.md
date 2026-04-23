@@ -21,3 +21,10 @@ Proje, sürdürülebilirlik ve test edilebilirlik için **Model-View-ViewModel (
 
 ##  Geliştirme Notları
 Uygulama, yerel yönetimler ve vatandaşlar arasında köprü kurmayı hedefleyen AI-Native bir yaklaşım sergilemektedir.
+
+---
+
+##  Kaynaklar ve Dökümantasyon
+- [Swift Language Guide](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/) - Swift dilinin temel mantığı ve sözdizimi rehberi.
+- [Design Patterns in Swift](https://refactoring.guru/design-patterns/swift) - Projede uygulanan MVVM ve diğer yazılım mimarileri üzerine teknik kaynak.
+- [Future Talent Program](https://www.upschool.io/) - Bu proje Citi, YGA ve UP School iş birliğiyle geliştirilmektedir.
