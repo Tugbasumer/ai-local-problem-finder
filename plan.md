@@ -6,7 +6,7 @@ Bu döküman, projenin adım adım geliştirilme sürecini ve yapay zeka entegra
 - [x] **1.1. Proje Yapılandırması:** `backend/` (FastAPI) ve `frontend/` (Swift) dizinlerinin oluşturularak servislerin birbirinden izole edilmesi.
 - [x] **1.2. Backend Ortamı:** Python sanal ortamının (venv) kurulması ve `requirements.txt` (fastapi, uvicorn, sqlmodel, python-dotenv, openai) dosyasının hazırlanması.
 - [x] **1.3. Güvenlik ve Yapılandırma:** `.env` dosyasının oluşturulması; `OPENROUTER_API_KEY` ve veritabanı erişim bilgilerinin tanımlanması.
-- [ ] **1.4. Frontend Başlangıç:** Swift projesinin başlatılması ve temel MVVM (Model-View-ViewModel) klasör yapısının kurulması.
+- [X] **1.4. Frontend Başlangıç:** Swift projesinin başlatılması ve temel MVVM (Model-View-ViewModel) klasör yapısının kurulması.
 
 ##  2. Aşama: Veritabanı Tasarımı ve Veri Modelleri
 - [ ] **2.1. Veri Şeması:** `SQLModel` kullanılarak `Problem` tablosunun (id, başlık, açıklama, kategori, öncelik_skoru, yapay_zeka_gerekçesi) tanımlanması.
