@@ -13,12 +13,12 @@ Bu döküman, projenin adım adım geliştirilme sürecini ve yapay zeka entegra
 - [ ] **2.2. Veritabanı Bağlantısı:** SQLAlchemy motorunun kurulması ve FastAPI Dependency Injection yapısı ile veritabanı oturum yönetiminin sağlanması.
 
 ##  3. Aşama: Core AI ve Prompt Mühendisliği
-- [ ] **3.1. OpenRouter Entegrasyonu:** OpenRouter API üzerinden LLM (GPT-4o-mini veya Gemini Flash) çağrılarını yönetecek asenkron servis katmanının yazılması.
-- [ ] **3.2. Sistem Promptu Tasarımı:** Kullanıcı metnini analiz eden, "Akıllı Şehir Planlamacısı" rolünü üstlenen ve çıktı olarak kesin JSON formatı (Structured Output) veren promptun optimize edilmesi.
+- [X] **3.1. OpenRouter Entegrasyonu:** OpenRouter API üzerinden LLM (GPT-4o-mini veya Gemini Flash) çağrılarını yönetecek asenkron servis katmanının yazılması.
+- [X] **3.2. Sistem Promptu Tasarımı:** Kullanıcı metnini analiz eden, "Akıllı Şehir Planlamacısı" rolünü üstlenen ve çıktı olarak kesin JSON formatı (Structured Output) veren promptun optimize edilmesi.
 - [ ] **3.3. Çıktı Doğrulama:** Yapay zekadan gelen verinin Pydantic modelleri ile tip kontrolünün yapılması ve hatalı formatların ayıklanması.
 
 ##  4. Aşama: Backend API Geliştirme
-- [ ] **4.1. Problem Oluşturma (POST):** Kullanıcı şikayetini alan, AI analizini tetikleyen ve analiz sonuçlarıyla birlikte veritabanına kaydeden uç noktanın (endpoint) kodlanması.
+- [X] **4.1. Problem Oluşturma (POST):** Kullanıcı şikayetini alan, AI analizini tetikleyen ve analiz sonuçlarıyla birlikte veritabanına kaydeden uç noktanın (endpoint) kodlanması.
 - [ ] **4.2. Liste ve Detay Servisleri (GET):** Tüm problemleri listeleyen ve belirli bir problemin detaylarını (AI gerekçesiyle birlikte) getiren servislerin yazılması.
 - [ ] **4.3. Öncelik Filtreleme:** En yüksek skorlu problemleri "Acil" etiketiyle getiren özel sorgu mantığının kurulması.
 
