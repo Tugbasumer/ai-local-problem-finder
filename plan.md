@@ -24,5 +24,5 @@ Bu döküman, projenin adım adım geliştirilme sürecini ve yapay zeka entegra
 
 ##  5. Aşama: Frontend Geliştirme ve Entegrasyon
 - [ ] **5.1. Network Katmanı:** Swift `URLSession` kullanarak backend API ile asenkron haberleşen servis sınıfının yazılması.
-- [ ] **5.2. UI Uygulama:** SwiftUI ile dinamik problem bildirme formu ve analiz sonuçlarını içeren liste ekranlarının tasarlanması.
-- [ ] **5.3. Uçtan Uca Test:** Bir problemin girilmesinden, AI tarafından puanlanıp listede görünmesine kadar olan tüm akışın test edilmesi.
+- [X] **5.2. UI Uygulama:** SwiftUI ile dinamik problem bildirme formu ve analiz sonuçlarını içeren liste ekranlarının tasarlanması.
+- [/] **5.3. Uçtan Uca Test:** Bir problemin girilmesinden, AI tarafından puanlanıp listede görünmesine kadar olan tüm akışın test edilmesi.
